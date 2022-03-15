@@ -54,6 +54,11 @@ namespace ConsoleApp1
             {
                 Console.WriteLine("Number1 is a whole number");
             }
+
+            //create a program to check
+            //whether a person is able to vote or not and also check if the person is a senior citizen
+            //then print he can vote and he is a senior citizen
+            //60
         }
     }
 }
