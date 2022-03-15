@@ -15,8 +15,14 @@ namespace ConsoleApp1
              * else{
              * }
              * 
+             * if()
+             * {
+             * }
+             * else if(){
+             * }
              */
 
+            /*
             int Number1=6,Number2=5;
             if (Number1>Number2)
             {
@@ -27,8 +33,27 @@ namespace ConsoleApp1
                 Console.WriteLine("Number2 is greater than Number 1");
 
             }
+
+
             Console.WriteLine();
+            */
             //create a program to check whether a number is odd or EVEN
+
+            //program to check a number is positive or negative or its a whole number
+            int Number1 = -1;
+            if (Number1 > 0)
+            {
+                Console.WriteLine("Number1 is a positive number");
+            }
+            else if(Number1<0)
+            {
+                Console.WriteLine("Number1 is negative number");
+
+            }
+            else
+            {
+                Console.WriteLine("Number1 is a whole number");
+            }
         }
     }
 }
