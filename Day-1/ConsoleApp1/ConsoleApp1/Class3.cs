@@ -8,7 +8,7 @@ namespace ConsoleApp1
     {
         //conditional statements
         //if and else statment
-        public static void Main()
+        public static void Main3()
         {
             /* if(exp1){
              * }
