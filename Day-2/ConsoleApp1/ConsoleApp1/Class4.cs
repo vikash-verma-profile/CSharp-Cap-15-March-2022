@@ -7,7 +7,7 @@ namespace ConsoleApp1
     internal class Class4
     {
         //Arrays
-        public static void Main()
+        public static void Main4()
         {
             /*
              * <data type> [] <Name_Array>
