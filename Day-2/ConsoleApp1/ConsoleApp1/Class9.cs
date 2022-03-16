@@ -13,14 +13,36 @@ namespace ConsoleApp1
         //Destructors
         //Methods
         //Indexers
+
+       
     }
 
     class Employee
     {
-        public int employeeiD;
-        public string employeename;
-        public string employeeGender;
-        public double employeeSalary;
+        int employeeiD;
+        string employeename;
+        string employeeGender;
+        double employeeSalary;
+        public void GetData()
+        {
+            Console.WriteLine("Please enter employee Details");
+            Console.WriteLine("Please enter employee Id");
+            employeeiD = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Please enter employee Name");
+            employeename = Console.ReadLine();
+            Console.WriteLine("Please enter employee Gender");
+            employeeGender = Console.ReadLine();
+            Console.WriteLine("Please enter employee Salary");
+            employeeSalary = Convert.ToDouble(Console.ReadLine());
+        }
+        public void DisplayEmployee()
+        {
+            Console.WriteLine("Employee Details entered by User is");
+            Console.WriteLine("employee Id:" + employeeiD);
+            Console.WriteLine("employee Name:" + employeename);
+            Console.WriteLine("employee Gender:" + employeeGender);
+            Console.WriteLine("employee Salary:" + employeeSalary);
+        }
     }
     internal class Class9
     {
@@ -39,30 +61,23 @@ namespace ConsoleApp1
 
             //taking input from user
             Employee emp=new Employee();
-            Console.WriteLine("Please enter employee Details");
-            Console.WriteLine("Please enter employee Id");
-            emp.employeeiD=Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Please enter employee Name");
-            emp.employeename=Console.ReadLine();
-            Console.WriteLine("Please enter employee Gender");
-            emp.employeeGender=Console.ReadLine();
-            Console.WriteLine("Please enter employee Salary");
-            emp.employeeSalary=Convert.ToDouble(Console.ReadLine());
+            emp.GetData();
+            emp.DisplayEmployee();
 
             //print data recived from user
 
-            Console.WriteLine("Employee Details entered by User is");
 
-            Console.WriteLine("employee Id:" + emp.employeeiD);
-            Console.WriteLine("employee Name:" + emp.employeename);
-            Console.WriteLine("employee Gender:" + emp.employeeGender);
-            Console.WriteLine("employee Salary:" + emp.employeeSalary);
 
             //for student
             //student roll number
             //student name
             //student gender
             //student class
+
+            Employee[] employeeList = new Employee[2];
+
+            //create a program to store multiple employee data -2 employees
+            //ask choice of user what he want to do 1.create 2.list employees 3.delete employee 4.exit
 
         }
     }
