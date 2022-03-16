@@ -46,7 +46,7 @@ namespace ConsoleApp1
     }
     internal class Class9
     {
-        public static void Main()
+        public static void Main9()
         {
             //<class-Name> objectname=new <class-Name>()
             //Student student = new Student();
