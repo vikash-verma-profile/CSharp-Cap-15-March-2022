@@ -15,7 +15,7 @@ namespace ConsoleApp1
          * 3.do while
          * 4.for each
          */
-        public static void Main()
+        public static void Main4()
         {
             int choice=3;
             switch (choice)
@@ -48,6 +48,8 @@ namespace ConsoleApp1
                 }
                 Console.Write("\n");
             }
+            Console.WriteLine("Vikash"+"Verma"); //Vikash Verma
+
             Console.WriteLine();
             /*
              * while loop Entry control loop
