@@ -9,7 +9,7 @@ namespace ConsoleApp1
         /*
          * Jagged array=>array of arrays
          */
-        public static void Main()
+        public static void Main5()
         {
             //<data-type> [][] <name of array>=new <data-type>[rows][]
             int [][] jagged_arry=new int[4][];
