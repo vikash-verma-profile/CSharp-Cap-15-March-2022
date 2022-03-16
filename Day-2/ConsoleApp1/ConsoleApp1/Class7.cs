@@ -7,7 +7,7 @@ namespace ConsoleApp1
     //var and dynamic
     internal class Class7
     {
-        public static void Main()
+        public static void Main7()
         {
             //var its a compiler time
             /*
