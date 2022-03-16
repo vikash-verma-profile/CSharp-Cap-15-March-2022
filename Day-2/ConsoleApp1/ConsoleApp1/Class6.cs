@@ -8,7 +8,7 @@ namespace ConsoleApp1
     {
         //out keyword in parameter
         //out vs ref
-        public static void Main()
+        public static void Main6()
         {
             int result,result2, a=1, b=2;
             //you have to define the value before passing to a function when using ref keyword
