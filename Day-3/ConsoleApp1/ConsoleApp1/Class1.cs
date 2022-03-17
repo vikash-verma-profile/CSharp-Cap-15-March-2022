@@ -61,7 +61,7 @@ namespace ConsoleApp1
     }
     public class Class1
     {
-        public static void Main()
+        public static void Main2()
         {
             DummyStatic s=new DummyStatic();
             s.Display();
