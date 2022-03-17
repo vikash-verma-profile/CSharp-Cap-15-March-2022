@@ -19,11 +19,11 @@ namespace ConsoleApp1
             number2 = num2;
         }
 
-        public static Calculator operator +(Calculator c1,Calculator c2)
+        public static Calculator operator +(Calculator c1, Calculator c2)
         {
             Calculator c3 = new Calculator();
-            c3.number1 = c1.number1+ c2.number1;
-            c3.number2 = c1.number2+ c2.number1;
+            c3.number1 = c1.number1 + c2.number1;
+            c3.number2 = c1.number2 + c2.number1;
             return c3;
         }
         public void Print()
@@ -33,7 +33,7 @@ namespace ConsoleApp1
     }
     internal class Class8
     {
-        public static void Main()
+        public static void Main9()
         {
             Calculator c1 = new Calculator(15,15);
             Calculator c2 = new Calculator(30,30);
