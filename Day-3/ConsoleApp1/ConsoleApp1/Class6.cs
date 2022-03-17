@@ -4,6 +4,7 @@ using System.Text;
 
 namespace ConsoleApp1
 {
+   
     class PhotoBook
     {
         protected int numpages;
@@ -30,7 +31,7 @@ namespace ConsoleApp1
     }
     internal class Class6
     {
-        public static void Main()
+        public static void Main7()
         {
             PhotoBook book = new PhotoBook();
             Console.WriteLine(book.GetNumPages());
