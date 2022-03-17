@@ -42,7 +42,7 @@ namespace ConsoleApp1
         /*
          * 
          */
-        public static void Main()
+        public static void Main4()
         {
 
             C1 c1 = new C1();
