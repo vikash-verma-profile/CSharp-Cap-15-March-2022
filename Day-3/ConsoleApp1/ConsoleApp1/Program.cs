@@ -72,7 +72,7 @@ namespace ConsoleApp1
          */
 
         //default constructor
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             // Sample s=new Sample(1,2);
             Vehicle v1 = new Vehicle("Bike","Black",40);
