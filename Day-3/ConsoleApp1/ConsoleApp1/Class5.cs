@@ -34,7 +34,7 @@ namespace ConsoleApp1
     }
     public class Class5
     {
-        public static void Main()
+        public static void Main6()
         {
             Person pp = new Person();
             pp.Greet();
