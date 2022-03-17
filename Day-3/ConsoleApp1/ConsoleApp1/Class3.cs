@@ -8,6 +8,7 @@ namespace ConsoleApp1
     /// <summary>
     /// <access modifiers> <return tye> <property-name>{  get {//body }  set {//body}}
     /// </summary>
+    /// Destructor
     class C1
     {
         //abstraction
