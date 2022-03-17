@@ -31,13 +31,13 @@ namespace ConsoleApp1
     }
     internal class Class2
     {
-        public static void Main()
+        public static void Main3()
         {
            ChildClass c=new ChildClass();
             BaseClass b = new BaseClass();
-            b.
-            c.Display();
-            c.Print();
+            //b.
+            //c.Display();
+            //c.Print();
         }
     }
 }
