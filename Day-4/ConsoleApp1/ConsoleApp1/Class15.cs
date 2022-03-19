@@ -10,11 +10,11 @@ namespace ConsoleApp1
      * catch==.This block will catch the exception that is being thrown by the try block
      * finally 
      * throw
-     * 
+     * Custom exception
      */
     internal class Class15
     {
-        public static void Main()
+        public static void Main16()
         {
             try
             {
@@ -22,7 +22,9 @@ namespace ConsoleApp1
                // int c = b / a;
                 //Console.WriteLine(c);
                 int []a1=new int[2];
-                Console.WriteLine(a1[3]);
+                a1[0] = 1;
+                Console.WriteLine(a1[0]);
+                throw new Exception("Hi i am a manual exception");
             }
             catch (IndexOutOfRangeException e)
             {
@@ -38,7 +40,12 @@ namespace ConsoleApp1
             }
             catch (Exception ex)
             {
+                Console.WriteLine(ex.Message);
 
+            }
+            finally
+            {
+                Console.WriteLine("I am your finally block");
             }
            
         }
