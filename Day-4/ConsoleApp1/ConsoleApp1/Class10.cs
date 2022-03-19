@@ -14,7 +14,7 @@ namespace ConsoleApp1
      */
     internal class Class10
     {
-        public static void Main()
+        public static void Main11()
         {
             string name = "Vikash";
             string myname = name;
