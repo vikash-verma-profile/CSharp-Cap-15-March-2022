@@ -24,7 +24,7 @@ namespace ConsoleApp1
     }
     internal class Class14
     {
-        public static void Main()
+        public static void Main15()
         {
             Student student;
 
