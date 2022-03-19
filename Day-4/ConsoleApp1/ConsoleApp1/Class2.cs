@@ -24,7 +24,7 @@ namespace ConsoleApp1
 	}
 	internal class Class2
     {
-		public static void Main()
+		public static void Main3()
 		{
 			Person[] p1 = new Person[3];
 		
