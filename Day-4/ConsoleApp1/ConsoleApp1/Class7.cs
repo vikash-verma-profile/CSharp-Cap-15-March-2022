@@ -37,7 +37,7 @@ namespace ConsoleApp1
     }
     internal class Class7
     {
-        public static void Main()
+        public static void Main8()
         {
             Car car = new Car(0);
 
@@ -46,6 +46,9 @@ namespace ConsoleApp1
             {
                 car.Drive();
             }
+
+            string c;
+            String s;
         }
     }
 }
