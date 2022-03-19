@@ -25,7 +25,7 @@ namespace ConsoleApp1
         {
             Console.WriteLine("a= " + a + " b= " + b + " c= " + c);
         }
-        public static void Main()
+        public static void Main12()
         {
             //string a = "1";
             //a="2";
