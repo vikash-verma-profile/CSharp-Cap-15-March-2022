@@ -25,7 +25,7 @@ namespace ConsoleApp1
     }
     internal class Class9
     {
-        public static void Main()
+        public static void Main10()
         {
             p obj=new p();
             p1 obj1=new p1();

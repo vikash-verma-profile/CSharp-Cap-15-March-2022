@@ -11,3 +11,4 @@ C:\Users\om\Desktop\CSharp-Cap-15-March-2022\Day-4\ConsoleApp1\ConsoleApp1\bin\D
 C:\Users\om\Desktop\CSharp-Cap-15-March-2022\Day-4\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.dll
 C:\Users\om\Desktop\CSharp-Cap-15-March-2022\Day-4\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.pdb
 C:\Users\om\Desktop\CSharp-Cap-15-March-2022\Day-4\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.genruntimeconfig.cache
+C:\Users\om\Desktop\CSharp-Cap-15-March-2022\Day-4\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.csproj.AssemblyReference.cache
