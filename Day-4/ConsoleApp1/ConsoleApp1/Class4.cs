@@ -24,7 +24,7 @@ namespace ConsoleApp1
     internal class Class4
     {
 
-        public static void Main()
+        public static void Main5()
         {
             square s = new square(6);
             Console.WriteLine(s.Area());
