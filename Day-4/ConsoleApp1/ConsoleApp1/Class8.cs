@@ -11,7 +11,7 @@ namespace ConsoleApp1
      */
     internal class Class8
     {
-        public static void Main()
+        public static void Main9()
         {
             int a = 6;
             object b = 5;
