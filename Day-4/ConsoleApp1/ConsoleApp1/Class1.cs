@@ -35,7 +35,7 @@ namespace ConsoleApp1
      */
     internal class Class1
     {
-        public static void Main()
+        public static void Main2()
         {
             DerivedClass d1 = new DerivedClass();
             Console.WriteLine();
