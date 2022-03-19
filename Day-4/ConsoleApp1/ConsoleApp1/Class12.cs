@@ -17,7 +17,7 @@ namespace ConsoleApp1
     }
     internal class Class12
     {
-        public static void Main()
+        public static void Main13()
         {
             Console.WriteLine(Gender.Male);
             Console.WriteLine((int)Gender.Male);
