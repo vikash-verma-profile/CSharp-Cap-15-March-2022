@@ -56,7 +56,7 @@ namespace ConsoleApp1
     }
     internal class Class6
     {
-        public static void Main()
+        public static void Main7()
         {
             Bicycle bicycle = new Bicycle();
             bicycle.ChangeGear(2);
