@@ -6,6 +6,11 @@ namespace ConsoleApp1
 {
     internal class Class1
     {
+        class Employee
+        {
+            public int Id { get; set; }
+            public string Name { get; set; }
+        }
         public static void Main()
         {
             /*List
@@ -22,6 +27,16 @@ namespace ConsoleApp1
                 Console.WriteLine(item);
             }
 
+            List<Employee> employees = new List<Employee>();
+            employees.Add(new Employee() { Id = 101, Name = "Vikash 101" });
+            employees.Add(new Employee() { Id = 102, Name = "Vikash 102" });
+            employees.Add(new Employee() { Id = 103, Name = "Vikash 103" });
+
+            foreach (var item in employees)
+            {
+                Console.WriteLine(item.Id.ToString().Length);
+                Console.WriteLine(item.Id + " "+item.Name);
+            }
 
             /*Dictionary
             * 
