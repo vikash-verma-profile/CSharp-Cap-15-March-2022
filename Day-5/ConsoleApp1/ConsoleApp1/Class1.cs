@@ -11,7 +11,7 @@ namespace ConsoleApp1
             public int Id { get; set; }
             public string Name { get; set; }
         }
-        public static void Main()
+        public static void Main2()
         {
             /*List
            * 
