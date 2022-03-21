@@ -24,6 +24,7 @@ namespace ConsoleApp1
 
             foreach (var item in lst)
             {
+                Console.WriteLine(item.GetType());
                 Console.WriteLine(item);
             }
 
@@ -32,8 +33,9 @@ namespace ConsoleApp1
             employees.Add(new Employee() { Id = 102, Name = "Vikash 102" });
             employees.Add(new Employee() { Id = 103, Name = "Vikash 103" });
 
-            foreach (var item in employees)
+            foreach (Employee item in employees)
             {
+                Console.WriteLine(item.GetType());
                 Console.WriteLine(item.Id.ToString().Length);
                 Console.WriteLine(item.Id + " "+item.Name);
             }
